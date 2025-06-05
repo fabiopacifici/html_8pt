@@ -1,0 +1,67 @@
+/* #region Common */
+
+body
+{
+  background-image: url('../img/gmail-bg.jpg');
+  margin: 0;
+}
+
+header
+{
+  color: white;
+  background-color: #47adf1;
+
+}
+
+/* #endregion Common */
+
+
+/* #region Header */
+
+.logo_img
+{
+  width: 50px;
+  vertical-align: middle;
+}
+
+.logo_text
+{
+  font-size: 1.5rem;
+  vertical-align: middle;
+
+}
+
+/* #endregion Header */
+
+
+/* #region Main */
+
+h1
+{
+  color: white;
+}
+
+
+.container
+{
+
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.email
+{
+  background-color: rgb(174, 174, 174);
+  margin-bottom: 2px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.unread
+{
+  background-color: white;
+}
+
+/* #endregion Main */

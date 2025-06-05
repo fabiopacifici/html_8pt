@@ -1,0 +1,62 @@
+/* 
+html
+{
+  font-size: 18px;
+}
+*/
+body
+{
+  margin: 0;
+}
+
+header
+{
+  background-color: #ededed;
+  text-align: center;
+  border-bottom: 2px solid orange;
+}
+
+#page-title
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+
+}
+
+#logo
+{
+  border-radius: 50%;
+  width: 100px;
+}
+
+
+.title
+{
+  color: orange;
+}
+
+
+
+.item
+{
+  font-size: 12px;
+}
+
+p
+{
+  /*  font-size: 1em; */
+  font-size: 1rem;
+}
+
+
+h3
+{
+  text-transform: uppercase;
+}
+
+footer
+{
+  background-color: #ededed;
+  text-align: center;
+  border-top: 1px solid orange;
+}
