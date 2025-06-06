@@ -1,0 +1,256 @@
+/* #region Common */
+:root
+{
+  /* Color Schema inside root element */
+  --tb-page-bg: #f6f8f9;
+
+  --tb-lighter: white;
+  --tb-light: #d0d6d9;
+  --tb-primary: #47adf1;
+  --tb-goals-bg: #9c72e4;
+  --tb-recruiting-bg: #64c0a9;
+  --tb-mobile-bg: #f29e33;
+  --tb-website-bg: #d863a0;
+  --tb-sales-bg: #b0c926;
+  --tb-checkmark-color: #70c6b2;
+  --tb-cancel-color: #ee675f;
+
+}
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body
+{
+  background-color: var(--tb-page-bg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+  list-style: none;
+}
+
+
+ul li
+{
+  margin-bottom: 1rem;
+}
+
+section
+{
+  h2
+  {
+    margin-bottom: 1rem;
+  }
+}
+
+/* 
+ul
+{
+
+  li
+  {
+    margin-bottom: 1rem;
+  }
+
+} */
+
+/* #endregion */
+
+/* #region Utilities */
+
+.container
+{
+  max-width: 780px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.btn
+{
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+.btn-primary
+{
+  background-color: var(--tb-primary);
+  border: 1px solid var(--tb-primary);
+  color: var(--tb-lighter);
+}
+
+.btn-outline-light
+{
+  border: 1px solid var(--tb-light);
+  color: var(--tb-light);
+}
+
+.icon
+{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
+  padding: 0.15rem;
+}
+
+.checkmark
+{
+  font-weight: bold;
+  border: 1px solid var(--tb-checkmark-color);
+  color: var(--tb-checkmark-color);
+}
+
+.cancel
+{
+  font-weight: bold;
+  border: 1px solid var(--tb-cancel-color);
+  color: var(--tb-cancel-color);
+}
+
+
+.badge
+{
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: var(--tb-lighter);
+}
+
+
+/* Colors */
+
+.bg-editorial
+{
+  background-color: var(--tb-primary);
+
+}
+
+
+.bg-goals
+{
+  background-color: var(--tb-goals-bg);
+}
+
+.bg-recruiting
+{
+  background-color: var(--tb-recruiting-bg);
+}
+
+.bg-mobile
+{
+  background-color: var(--tb-mobile-bg);
+}
+
+.bg-website
+{
+  background-color: var(--tb-website-bg);
+}
+
+.bg-sales
+{
+  background-color: var(--tb-sales-bg);
+}
+
+
+
+/* Spacings */
+
+
+.mb-1
+{
+  margin-bottom: 1rem;
+}
+
+.mb-2
+{
+  margin-bottom: 2rem;
+}
+
+
+
+
+/* #endregion Utilities */
+
+
+/* #region Header */
+
+header
+{
+  background-color: var(--tb-lighter);
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+
+}
+
+header img
+{
+  vertical-align: middle;
+}
+
+header span
+{
+  vertical-align: middle;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* #endregion Header */
+
+
+/* #region Main*/
+
+.card
+{
+  background-color: var(--tb-lighter);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px var(--tb-light);
+}
+
+
+.card .card-header
+{
+  border-bottom: 2px solid var(--tb-page-bg);
+}
+
+
+.card .card-header,
+.card .card-body
+{
+  padding: 1rem 2rem;
+}
+
+
+/* Footer */
+
+footer
+{
+  background-color: var(--tb-lighter);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  font-size: 18px;
+}
