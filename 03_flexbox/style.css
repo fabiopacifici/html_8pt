@@ -1,0 +1,64 @@
+*
+{
+  border: 1px dashed red;
+}
+
+
+
+.d-flex
+{
+  /*  display: flex;
+  height: 400px; */
+  /*   flex-direction: column; */
+  /* flex-direction: row */
+  /* flex-direction: column */
+  /* flex-direction: row-reverse */
+  /* flex-direction: column-reverse */
+
+  /*  
+  justify-content: start;
+  justify-content: end;
+  justify-content: space-between;
+  justify-content: space-around;
+  */
+  /*  justify-content: space-between; */
+  /*  align-items: start; */
+  /*  align-items: end;
+  align-items: center;
+  flex-wrap: wrap-reverse; */
+  /* align-items: stretch; */
+}
+
+/* .square
+{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+} */
+
+
+/* .flex-container
+{
+  display: flex;
+  margin: auto;
+
+} */
+
+
+.banner
+{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+
+
+  h2
+  {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+}
