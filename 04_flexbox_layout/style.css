@@ -1,0 +1,90 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body
+{
+  height: 100%;
+  min-width: 1200px;
+}
+
+
+/* #region Debug Styles */
+
+.debug *
+{
+  border: 1px dashed black;
+}
+
+.debug header
+{
+  height: 100px;
+  background-color: rebeccapurple;
+}
+
+.debug .sidebar
+{
+  background-color: red;
+}
+
+.debug main
+{
+  background-color: blue;
+}
+
+.debug aside
+{
+  background-color: green;
+}
+
+.debug footer
+{
+  height: 100px;
+  background-color: orange;
+}
+
+/* #endregion Debug styles */
+
+header
+{
+  margin-bottom: 1rem;
+}
+
+
+
+.flex-container
+{
+  display: flex;
+  height: 100%;
+  gap: 1rem
+}
+
+.sidebar
+{
+  width: 20%;
+
+
+}
+
+main
+{
+  width: 60%;
+
+
+}
+
+aside
+{
+  width: 20%;
+
+}
+
+footer
+{
+  margin-top: 1rem;
+}
