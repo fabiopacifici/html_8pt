@@ -1,0 +1,159 @@
+/* #region Common */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root
+{
+  --dis-primary-color: #3161e0;
+}
+
+
+section
+{
+  padding: 2rem 0;
+}
+
+
+/* #endregion Common */
+
+
+
+/* #region Debug */
+
+/* .debug header  */
+/* .debug .jumbotron */
+.debug
+{
+
+  header
+  {
+    height: 60px;
+  }
+
+  .container-sm
+  {
+    min-height: 400px;
+    background-color: orange;
+  }
+
+
+  section
+  {
+    height: 400px;
+    background-color: gray;
+
+    .container
+    {
+      height: 100%;
+      background-color: orange;
+
+
+      .w-30,
+      .w-70
+      {
+        background-color: green;
+        border: 1px solid red;
+      }
+
+
+
+    }
+  }
+
+
+
+
+
+}
+
+/* #endregion Debug */
+
+
+
+
+
+/* #region Utilities */
+.container
+{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-sm
+{
+  width: 65%;
+  margin: 0 auto;
+}
+
+.d-flex
+{
+  display: flex;
+}
+
+.w-70
+{
+  width: 70%;
+}
+
+.w-30
+{
+  width: 30%;
+}
+
+
+/* #endregion Utilities */
+
+
+/* #region Header */
+
+/* header {
+    background-color: var(--dis-primary-color);
+
+} 
+
+
+header nav.container {
+// css rules
+}
+
+*/
+
+#app_header
+{
+
+  background-color: var(--dis-primary-color);
+
+
+  nav.container
+  {
+    height: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+}
+
+
+
+/* #endregion Header */
+
+
+
+/* #region Main */
+
+/* Jumbotron */
+.jumbotron
+{
+  height: 450px;
+  background-color: var(--dis-primary-color);
+}
+
+
+/* #endregion Main */
