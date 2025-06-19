@@ -1,0 +1,275 @@
+/* Mobile First */
+
+/* Common */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*   border: 1px dashed red; */
+}
+
+:root
+{
+  --bol-dark: #1a1a1a;
+  --bol-primary: #ff6900;
+  --bol-white: white;
+  --bol-danger: #ff0000;
+  --bol-sucess: #008000;
+
+}
+
+img
+{
+  max-width: 100%;
+  display: block;
+}
+
+/* Utilities */
+
+.container
+{
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex-container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.column
+{
+  width: 100%;
+}
+
+
+
+/* Header */
+header
+{
+  background-color: var(--bol-primary);
+
+  margin-bottom: 3rem;
+
+
+  nav
+  {
+    align-items: center;
+
+    ul
+    {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      a
+      {
+        display: inline-block;
+        text-decoration: none;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+/* Main */
+
+.top
+{
+
+  position: relative;
+
+  .back
+  {
+    display: none;
+  }
+
+  &:hover .back
+  {
+    display: block;
+  }
+
+  &:hover .front
+  {
+    display: none;
+  }
+
+
+  .like
+  {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    border: none;
+    background-color: white;
+    padding: 0.5rem;
+
+  }
+
+  .badges
+  {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: var(--bol-white);
+
+    .badge
+    {
+      padding: 0.25rem 1rem;
+      text-transform: capitalize;
+
+
+      &.discount
+      {
+        background-color: var(--bol-danger);
+      }
+
+      &.category
+      {
+        background-color: var(--bol-sucess);
+      }
+
+    }
+
+
+  }
+
+
+}
+
+.bottom
+{
+  .name
+  {
+    text-transform: uppercase;
+  }
+
+
+  .price .discounted
+  {
+    color: red;
+    font-weight: bold;
+  }
+
+  .price .original
+  {
+    text-decoration: line-through;
+  }
+}
+
+
+
+/* .top:hover .back{
+  display: block;
+}
+
+.top:hover .front {
+  display: none;
+} */
+/* 
+body{
+  background-color: red;
+} */
+
+/* @media screen and (min-width: 480px)
+{
+ 
+
+  .container
+  {
+    max-width: 440px;
+    width: 90%;
+
+  }
+
+
+} */
+
+
+@media screen and (min-width: 568px)
+{
+
+  .container
+  {
+    max-width: 520px;
+  }
+
+
+  .column {
+    width: calc(100% / 2 - 1rem);
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container
+    {
+      max-width: 720px;
+    }
+  
+  
+/*     .column
+    {
+      width: calc(100% / 3 - 1rem);
+    } */
+}
+
+
+@media screen and (min-width: 992px)
+{
+  .container
+  {
+    max-width: 920px;
+  }
+
+
+      .column
+    {
+      width: calc(100% / 3 - 1rem);
+    }
+}
+
+
+/* Desktop First */
+
+/* exteral css rules are applied to desktops  */
+
+
+/* inside the media query we style smaller devices */
+
+@media screen and (max-width: 992px)
+{
+
+  body {
+    background-color: red;
+  }
+
+}
+
+
+@media screen and (max-width: 768px)
+{
+body
+  {
+    background-color: yellow;
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px)
+{
+  body
+    {
+      background-color: green;
+    }
+
+}
+
